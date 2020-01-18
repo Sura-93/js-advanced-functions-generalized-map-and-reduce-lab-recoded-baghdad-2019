@@ -13,9 +13,9 @@ function reduce(sourceArray,callingback,point){
   let result;
   if(!!point){
     result = point
-  } 
+  }
   else{
-   
+
      result = sourceArray[0]
   }
   let i = (!!point) ? 0 : 1
